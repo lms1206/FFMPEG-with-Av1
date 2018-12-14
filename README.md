@@ -9,7 +9,7 @@
 
   ## Usage
      sudo chmod a+x ffmpeg-autoscript.sh
-     sh ffmpeg-autscript.sh
+     sh ffmpeg-autoscript.sh
 
 
 ## Copyright @2018 lazerbeam84
