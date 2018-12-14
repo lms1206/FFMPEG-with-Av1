@@ -82,11 +82,10 @@ echo "###############################"
 echo "---------------------------------------"
 
 echo "---------------------------------------"
-mkdir -p ~/ffmpeg_sources/libaom/source
-cd ~/ffmpeg_sources/libaom/source
+mkdir -p ~/ffmpeg_sources/libaom/
+cd ~/ffmpeg_sources/libaom/
 git clone https://aomedia.googlesource.com/aom
-cd ~/ffmpeg_sources/libaom
-cmake source
+cmake ./aom
 make
 make install
 sudo ldconfig -v
